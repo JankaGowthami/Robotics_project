@@ -1,0 +1,10 @@
+Components:
+ Arduino-compatible microcontroller board
+ USB cable
+ Breadboard
+ Jumper wires
+ Potentiometer
+ LED
+ Current-limiting resistors (220 Ω for UNO R3, 470 Ω for UNO R4)
+ Pushbutton
+ 10 kΩ resistor

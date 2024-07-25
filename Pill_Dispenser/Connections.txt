@@ -1,0 +1,33 @@
+Connections:
+
+LCD
+1. Pin 1 (VSS or GND): Connect to GND.
+2. Pin 2 (VDD or VCC): Connect to 5V.
+3. Pin 3 (V0): Connect to the center pin of the potentiometer.
+4. Pin 4 (RS): Connect to Arduino pin 12.
+5. Pin 5 (RW): Connect to GND.
+6. Pin 6 (E): Connect to Arduino pin 11.
+7. Pins 7-10 (D0-D3): Not used.
+8. Pin 11 (D4): Connect to Arduino pin 5.
+9. Pin 12 (D5): Connect to Arduino pin 4.
+10. Pin 13 (D6): Connect to Arduino pin 3.
+11. Pin 14 (D7): Connect to Arduino pin 2.
+12. Pin 15 (LED or A): Connect to a current limiting resistor, then to 5V.
+13. Pin 16 (LED or K): Connect to GND.
+
+Potentiometer
+1. One Outer Pin: Connect to 5V.
+2. Center Pin: Connect to Pin 3 (V0) on the LCD screen.
+3. Other Outer Pin: Connect to GND.
+
+LED
+1. Positive (longer) leg: Connect to Arduino pin 7.
+2. Negative (shorter) leg: Connect to a current limiting resistor, then to GND.
+
+Buzzer
+1. Positive pin: Connect to Arduino pin 8.
+2. Negative pin: Connect to GND.
+
+Pushbutton
+1. One Side: Connect to 5V.
+2. Other Side: Connect to GND through a 10 kΩ pull-down resistor and to Arduino pin 9.
